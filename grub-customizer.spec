@@ -1,5 +1,5 @@
 Name:           grub-customizer
-Version:        2.5.6
+Version:        2.5.7
 Release:        1%{?dist}
 Summary:        Grub Customizer is a graphical interface to configure the grub2/burg settings
 
@@ -66,6 +66,9 @@ install -m 0644 grub.cfg %{buildroot}%{_sysconfdir}/%{name}/grub.cfg
 
 
 %changelog
+* Thu Jun 14 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.7-1.R
+- Update to 2.5.7
+
 * Sat May 12 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.6-1.R
 - Drop patch
 - Update to 2.5.6
