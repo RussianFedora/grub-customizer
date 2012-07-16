@@ -1,0 +1,974 @@
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/aboutDialog.h grub-customizer-2.5.7/src/interface/aboutDialog.h
+--- grub-customizer-2.5.7_orig/src/interface/aboutDialog.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/aboutDialog.h	2012-07-16 10:35:36.456591190 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef ABOUTDIALOG_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/colorChooser.h grub-customizer-2.5.7/src/interface/colorChooser.h
+--- grub-customizer-2.5.7_orig/src/interface/colorChooser.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/colorChooser.h	2012-07-16 10:35:36.441590844 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef COLOR_CHOOSER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/entryPathBuilder.h grub-customizer-2.5.7/src/interface/entryPathBuilder.h
+--- grub-customizer-2.5.7_orig/src/interface/entryPathBuilder.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/entryPathBuilder.h	2012-07-16 10:35:36.480591743 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef ENTRY_PATH_BUILDER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/entryPathFollower.h grub-customizer-2.5.7/src/interface/entryPathFollower.h
+--- grub-customizer-2.5.7_orig/src/interface/entryPathFollower.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/entryPathFollower.h	2012-07-16 10:35:36.453591121 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef ENTRY_PATH_FOLLOWER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_grubInstallDlg.h grub-customizer-2.5.7/src/interface/evt_grubInstallDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_grubInstallDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_grubInstallDlg.h	2012-07-16 10:35:36.449591029 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_GRUB_INSTALL_DLG_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_listCfgDlg.h grub-customizer-2.5.7/src/interface/evt_listCfgDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_listCfgDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_listCfgDlg.h	2012-07-16 10:35:36.460591282 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_LISTCFGDLG_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_model.h grub-customizer-2.5.7/src/interface/evt_model.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_model.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_model.h	2012-07-16 10:35:36.433590660 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_MODEL_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_partitionChooser.h grub-customizer-2.5.7/src/interface/evt_partitionChooser.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_partitionChooser.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_partitionChooser.h	2012-07-16 10:35:36.483591812 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_PARTITIONCHOOSER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_scriptAddDlg.h grub-customizer-2.5.7/src/interface/evt_scriptAddDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_scriptAddDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_scriptAddDlg.h	2012-07-16 10:35:36.472591559 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_SCRIPTADDDLG_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/evt_settings.h grub-customizer-2.5.7/src/interface/evt_settings.h
+--- grub-customizer-2.5.7_orig/src/interface/evt_settings.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/evt_settings.h	2012-07-16 10:35:36.422590406 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_SETTINGSDLG_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/grubInstallDlg.h grub-customizer-2.5.7/src/interface/grubInstallDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/grubInstallDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/grubInstallDlg.h	2012-07-16 10:35:36.430590590 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUBINSTALLDLG_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/grublistCfgDlg.h grub-customizer-2.5.7/src/interface/grublistCfgDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/grublistCfgDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/grublistCfgDlg.h	2012-07-16 10:35:36.476591651 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUBLISTCFGDLG_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/logger.h grub-customizer-2.5.7/src/interface/logger.h
+--- grub-customizer-2.5.7_orig/src/interface/logger.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/logger.h	2012-07-16 10:35:36.418590314 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ #ifndef LOGGER_H_INCLUDED
+ #define LOGGER_H_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/mutex.h grub-customizer-2.5.7/src/interface/mutex.h
+--- grub-customizer-2.5.7_orig/src/interface/mutex.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/mutex.h	2012-07-16 10:35:36.445590936 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef MUTEX_H_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/partitionChooser.h grub-customizer-2.5.7/src/interface/partitionChooser.h
+--- grub-customizer-2.5.7_orig/src/interface/partitionChooser.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/partitionChooser.h	2012-07-16 10:35:36.464591374 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef PARTITIONCHOOSER_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/scriptAddDlg.h grub-customizer-2.5.7/src/interface/scriptAddDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/scriptAddDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/scriptAddDlg.h	2012-07-16 10:35:36.426590498 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SCRIPTADDDLG_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/settingsDlg.h grub-customizer-2.5.7/src/interface/settingsDlg.h
+--- grub-customizer-2.5.7_orig/src/interface/settingsDlg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/settingsDlg.h	2012-07-16 10:35:36.438590775 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SETTINGSDLG_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/interface/threadController.h grub-customizer-2.5.7/src/interface/threadController.h
+--- grub-customizer-2.5.7_orig/src/interface/threadController.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/interface/threadController.h	2012-07-16 10:35:36.469591490 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef THREADCONTROLLER_H_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/lib/md5.cpp grub-customizer-2.5.7/src/lib/md5.cpp
+--- grub-customizer-2.5.7_orig/src/lib/md5.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/lib/md5.cpp	2012-07-16 10:36:03.387212099 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "md5.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/lib/md5.h grub-customizer-2.5.7/src/lib/md5.h
+--- grub-customizer-2.5.7_orig/src/lib/md5.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/lib/md5.h	2012-07-16 10:35:36.414590222 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ #ifndef MD5_H_INCLUDED
+ #define MD5_H_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/lib/str_replace.cpp grub-customizer-2.5.7/src/lib/str_replace.cpp
+--- grub-customizer-2.5.7_orig/src/lib/str_replace.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/lib/str_replace.cpp	2012-07-16 10:36:03.391212191 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "str_replace.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/lib/str_replace.h grub-customizer-2.5.7/src/lib/str_replace.h
+--- grub-customizer-2.5.7_orig/src/lib/str_replace.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/lib/str_replace.h	2012-07-16 10:35:36.411590152 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include <string>
+diff -uNdr grub-customizer-2.5.7_orig/src/model/deviceDataList.cpp grub-customizer-2.5.7/src/model/deviceDataList.cpp
+--- grub-customizer-2.5.7_orig/src/model/deviceDataList.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/deviceDataList.cpp	2012-07-16 10:36:03.318210510 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "deviceDataList.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/deviceDataList.h grub-customizer-2.5.7/src/model/deviceDataList.h
+--- grub-customizer-2.5.7_orig/src/model/deviceDataList.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/deviceDataList.h	2012-07-16 10:35:36.362589023 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef DEVICE_DATALIST_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/entry.cpp grub-customizer-2.5.7/src/model/entry.cpp
+--- grub-customizer-2.5.7_orig/src/model/entry.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/entry.cpp	2012-07-16 10:36:03.378211892 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "entry.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/entry.h grub-customizer-2.5.7/src/model/entry.h
+--- grub-customizer-2.5.7_orig/src/model/entry.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/entry.h	2012-07-16 10:35:36.385589553 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_ENTRY_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/fbResolutionsGetter.cpp grub-customizer-2.5.7/src/model/fbResolutionsGetter.cpp
+--- grub-customizer-2.5.7_orig/src/model/fbResolutionsGetter.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/fbResolutionsGetter.cpp	2012-07-16 10:36:03.366211615 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "fbResolutionsGetter.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/fbResolutionsGetter.h grub-customizer-2.5.7/src/model/fbResolutionsGetter.h
+--- grub-customizer-2.5.7_orig/src/model/fbResolutionsGetter.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/fbResolutionsGetter.h	2012-07-16 10:35:36.399589876 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef FB_RESOLUTIONS_GETTER
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grubEnv.cpp grub-customizer-2.5.7/src/model/grubEnv.cpp
+--- grub-customizer-2.5.7_orig/src/model/grubEnv.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grubEnv.cpp	2012-07-16 10:36:03.314210417 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grubEnv.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grubEnv.h grub-customizer-2.5.7/src/model/grubEnv.h
+--- grub-customizer-2.5.7_orig/src/model/grubEnv.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grubEnv.h	2012-07-16 10:35:36.355588861 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUBENV_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grubInstaller.cpp grub-customizer-2.5.7/src/model/grubInstaller.cpp
+--- grub-customizer-2.5.7_orig/src/model/grubInstaller.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grubInstaller.cpp	2012-07-16 10:36:03.335210901 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grubInstaller.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grubInstaller.h grub-customizer-2.5.7/src/model/grubInstaller.h
+--- grub-customizer-2.5.7_orig/src/model/grubInstaller.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grubInstaller.h	2012-07-16 10:35:36.408590083 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_INSTALLER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grublistCfg.cpp grub-customizer-2.5.7/src/model/grublistCfg.cpp
+--- grub-customizer-2.5.7_orig/src/model/grublistCfg.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grublistCfg.cpp	2012-07-16 10:36:03.374211800 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grublistCfg.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/grublistCfg.h grub-customizer-2.5.7/src/model/grublistCfg.h
+--- grub-customizer-2.5.7_orig/src/model/grublistCfg.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/grublistCfg.h	2012-07-16 10:35:36.403589968 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_GrublistCfg_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/libproxyscript_parser.cpp grub-customizer-2.5.7/src/model/libproxyscript_parser.cpp
+--- grub-customizer-2.5.7_orig/src/model/libproxyscript_parser.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/libproxyscript_parser.cpp	2012-07-16 10:36:03.332210832 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "libproxyscript_parser.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/libproxyscript_parser.h grub-customizer-2.5.7/src/model/libproxyscript_parser.h
+--- grub-customizer-2.5.7_orig/src/model/libproxyscript_parser.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/libproxyscript_parser.h	2012-07-16 10:35:36.396589806 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CFG_LIBProxyScriptData_PARSER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/mountTable.cpp grub-customizer-2.5.7/src/model/mountTable.cpp
+--- grub-customizer-2.5.7_orig/src/model/mountTable.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/mountTable.cpp	2012-07-16 10:36:03.345211132 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "mountTable.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/mountTable.h grub-customizer-2.5.7/src/model/mountTable.h
+--- grub-customizer-2.5.7_orig/src/model/mountTable.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/mountTable.h	2012-07-16 10:35:36.359588953 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef MOUNT_TABLE_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/proxy.cpp grub-customizer-2.5.7/src/model/proxy.cpp
+--- grub-customizer-2.5.7_orig/src/model/proxy.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/proxy.cpp	2012-07-16 10:36:03.361211500 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "proxy.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/proxy.h grub-customizer-2.5.7/src/model/proxy.h
+--- grub-customizer-2.5.7_orig/src/model/proxy.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/proxy.h	2012-07-16 10:35:36.393589737 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_PROXY_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/proxylist.cpp grub-customizer-2.5.7/src/model/proxylist.cpp
+--- grub-customizer-2.5.7_orig/src/model/proxylist.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/proxylist.cpp	2012-07-16 10:36:03.354211339 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "proxylist.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/proxylist.h grub-customizer-2.5.7/src/model/proxylist.h
+--- grub-customizer-2.5.7_orig/src/model/proxylist.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/proxylist.h	2012-07-16 10:35:36.370589207 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_PROXYLIST_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/pscriptname_translator.cpp grub-customizer-2.5.7/src/model/pscriptname_translator.cpp
+--- grub-customizer-2.5.7_orig/src/model/pscriptname_translator.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/pscriptname_translator.cpp	2012-07-16 10:36:03.322210602 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "pscriptname_translator.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/pscriptname_translator.h grub-customizer-2.5.7/src/model/pscriptname_translator.h
+--- grub-customizer-2.5.7_orig/src/model/pscriptname_translator.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/pscriptname_translator.h	2012-07-16 10:35:36.352588792 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef PSCRIPTNAME_TRANSLATOR_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/repository.cpp grub-customizer-2.5.7/src/model/repository.cpp
+--- grub-customizer-2.5.7_orig/src/model/repository.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/repository.cpp	2012-07-16 10:36:03.310210325 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "repository.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/repository.h grub-customizer-2.5.7/src/model/repository.h
+--- grub-customizer-2.5.7_orig/src/model/repository.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/repository.h	2012-07-16 10:35:36.381589461 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_REPOSITORY_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/rule.cpp grub-customizer-2.5.7/src/model/rule.cpp
+--- grub-customizer-2.5.7_orig/src/model/rule.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/rule.cpp	2012-07-16 10:36:03.339210993 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "rule.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/rule.h grub-customizer-2.5.7/src/model/rule.h
+--- grub-customizer-2.5.7_orig/src/model/rule.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/rule.h	2012-07-16 10:35:36.389589645 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_RULE_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/script.cpp grub-customizer-2.5.7/src/model/script.cpp
+--- grub-customizer-2.5.7_orig/src/model/script.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/script.cpp	2012-07-16 10:36:03.349211224 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "script.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/script.h grub-customizer-2.5.7/src/model/script.h
+--- grub-customizer-2.5.7_orig/src/model/script.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/script.h	2012-07-16 10:35:36.367589138 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_CUSTOMIZER_SCRIPT_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/settings_mng_ds.cpp grub-customizer-2.5.7/src/model/settings_mng_ds.cpp
+--- grub-customizer-2.5.7_orig/src/model/settings_mng_ds.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/settings_mng_ds.cpp	2012-07-16 10:36:03.327210717 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "settings_mng_ds.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/settings_mng_ds.h grub-customizer-2.5.7/src/model/settings_mng_ds.h
+--- grub-customizer-2.5.7_orig/src/model/settings_mng_ds.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/settings_mng_ds.h	2012-07-16 10:35:36.377589368 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SETTING_MANAGER_DATASTORE_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/model/settingsStore.cpp grub-customizer-2.5.7/src/model/settingsStore.cpp
+--- grub-customizer-2.5.7_orig/src/model/settingsStore.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/settingsStore.cpp	2012-07-16 10:36:03.383212007 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "settingsStore.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/model/settingsStore.h grub-customizer-2.5.7/src/model/settingsStore.h
+--- grub-customizer-2.5.7_orig/src/model/settingsStore.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/model/settingsStore.h	2012-07-16 10:35:36.374589299 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SETTINGSSTORE_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/commonClass.cpp grub-customizer-2.5.7/src/presenter/commonClass.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/commonClass.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/commonClass.cpp	2012-07-16 10:36:03.430213090 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "commonClass.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/commonClass.h grub-customizer-2.5.7/src/presenter/commonClass.h
+--- grub-customizer-2.5.7_orig/src/presenter/commonClass.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/commonClass.h	2012-07-16 10:35:36.504592297 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef COMMONCLASS_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/eventListener.cpp grub-customizer-2.5.7/src/presenter/eventListener.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/eventListener.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/eventListener.cpp	2012-07-16 10:36:03.426212997 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "eventListener.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/eventListener.h grub-customizer-2.5.7/src/presenter/eventListener.h
+--- grub-customizer-2.5.7_orig/src/presenter/eventListener.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/eventListener.h	2012-07-16 10:35:36.501592228 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef EVENTLISTENER_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/glibMutex.cpp grub-customizer-2.5.7/src/presenter/glibMutex.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/glibMutex.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/glibMutex.cpp	2012-07-16 10:36:03.402212445 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "glibMutex.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/glibMutex.h grub-customizer-2.5.7/src/presenter/glibMutex.h
+--- grub-customizer-2.5.7_orig/src/presenter/glibMutex.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/glibMutex.h	2012-07-16 10:35:36.491591997 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GLIBMUTEX_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/glibThreadController.cpp grub-customizer-2.5.7/src/presenter/glibThreadController.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/glibThreadController.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/glibThreadController.cpp	2012-07-16 10:36:03.420212859 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "glibThreadController.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/glibThreadController.h grub-customizer-2.5.7/src/presenter/glibThreadController.h
+--- grub-customizer-2.5.7_orig/src/presenter/glibThreadController.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/glibThreadController.h	2012-07-16 10:35:36.487591905 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GLIBTHREADCONTROLLER_H_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/grubcfg_proxy_main.cpp grub-customizer-2.5.7/src/presenter/grubcfg_proxy_main.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/grubcfg_proxy_main.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/grubcfg_proxy_main.cpp	2012-07-16 10:36:03.394212260 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "../model/script.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/grubCustomizer.cpp grub-customizer-2.5.7/src/presenter/grubCustomizer.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/grubCustomizer.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/grubCustomizer.cpp	2012-07-16 10:36:03.417212790 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grubCustomizer.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/grubCustomizer.h grub-customizer-2.5.7/src/presenter/grubCustomizer.h
+--- grub-customizer-2.5.7_orig/src/presenter/grubCustomizer.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/grubCustomizer.h	2012-07-16 10:35:36.497592135 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GTK_CLIENT_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/gtk-client_main.cpp grub-customizer-2.5.7/src/presenter/gtk-client_main.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/gtk-client_main.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/gtk-client_main.cpp	2012-07-16 10:36:03.398212352 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grubCustomizer.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/streamLogger.cpp grub-customizer-2.5.7/src/presenter/streamLogger.cpp
+--- grub-customizer-2.5.7_orig/src/presenter/streamLogger.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/streamLogger.cpp	2012-07-16 10:36:03.406212537 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "streamLogger.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/presenter/streamLogger.h grub-customizer-2.5.7/src/presenter/streamLogger.h
+--- grub-customizer-2.5.7_orig/src/presenter/streamLogger.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/presenter/streamLogger.h	2012-07-16 10:35:36.508592389 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef STREAM_LOGGER_H_
+diff -uNdr grub-customizer-2.5.7_orig/src/test grub-customizer-2.5.7/src/test
+--- grub-customizer-2.5.7_orig/src/test	1970-01-01 03:00:00.000000000 +0300
++++ grub-customizer-2.5.7/src/test	2012-07-16 10:36:01.185161359 +0400
+@@ -0,0 +1,10 @@
++#!/bin/bash
++
++find . -name "[^.]*cpp" -type f | while read f ;
++    do
++        #echo "$f"
++        #grep ' * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA' "$f"
++        sed -i -e 's|Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA|Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA|' "$f";
++    #ls $FILE
++done
++
+diff -uNdr grub-customizer-2.5.7_orig/src/view/aboutDialogGtk.cpp grub-customizer-2.5.7/src/view/aboutDialogGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/aboutDialogGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/aboutDialogGtk.cpp	2012-07-16 10:36:03.292209911 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "aboutDialogGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/aboutDialogGtk.h grub-customizer-2.5.7/src/view/aboutDialogGtk.h
+--- grub-customizer-2.5.7_orig/src/view/aboutDialogGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/aboutDialogGtk.h	2012-07-16 10:35:36.327588216 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GC_ABOUNTDIALOG_GTK_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/view/grubInstallDlgGtk.cpp grub-customizer-2.5.7/src/view/grubInstallDlgGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/grubInstallDlgGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/grubInstallDlgGtk.cpp	2012-07-16 10:36:03.269209381 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grubInstallDlgGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/grubInstallDlgGtk.h grub-customizer-2.5.7/src/view/grubInstallDlgGtk.h
+--- grub-customizer-2.5.7_orig/src/view/grubInstallDlgGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/grubInstallDlgGtk.h	2012-07-16 10:35:36.319588031 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUB_INSTALL_DLG_GTK_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/view/grublistCfgDlgGtk.cpp grub-customizer-2.5.7/src/view/grublistCfgDlgGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/grublistCfgDlgGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/grublistCfgDlgGtk.cpp	2012-07-16 10:36:03.287209795 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "grublistCfgDlgGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/grublistCfgDlgGtk.h grub-customizer-2.5.7/src/view/grublistCfgDlgGtk.h
+--- grub-customizer-2.5.7_orig/src/view/grublistCfgDlgGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/grublistCfgDlgGtk.h	2012-07-16 10:35:36.337588446 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef GRUBLIST_CFG_DLG_GTK_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/view/partitionChooserGtk.cpp grub-customizer-2.5.7/src/view/partitionChooserGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/partitionChooserGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/partitionChooserGtk.cpp	2012-07-16 10:36:03.277209565 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "partitionChooserGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/partitionChooserGtk.h grub-customizer-2.5.7/src/view/partitionChooserGtk.h
+--- grub-customizer-2.5.7_orig/src/view/partitionChooserGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/partitionChooserGtk.h	2012-07-16 10:35:36.349588723 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SELECT_ROOT_DLG_GTK_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/view/scriptAddDlgGtk.cpp grub-customizer-2.5.7/src/view/scriptAddDlgGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/scriptAddDlgGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/scriptAddDlgGtk.cpp	2012-07-16 10:36:03.263209243 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "scriptAddDlgGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/scriptAddDlgGtk.h grub-customizer-2.5.7/src/view/scriptAddDlgGtk.h
+--- grub-customizer-2.5.7_orig/src/view/scriptAddDlgGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/scriptAddDlgGtk.h	2012-07-16 10:35:36.332588331 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SCRIPT_ADD_DLG_INCLUDED
+diff -uNdr grub-customizer-2.5.7_orig/src/view/settingsDlgGtk.cpp grub-customizer-2.5.7/src/view/settingsDlgGtk.cpp
+--- grub-customizer-2.5.7_orig/src/view/settingsDlgGtk.cpp	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/settingsDlgGtk.cpp	2012-07-16 10:36:03.305210210 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #include "settingsDlgGtk.h"
+diff -uNdr grub-customizer-2.5.7_orig/src/view/settingsDlgGtk.h grub-customizer-2.5.7/src/view/settingsDlgGtk.h
+--- grub-customizer-2.5.7_orig/src/view/settingsDlgGtk.h	2012-06-12 23:36:19.000000000 +0400
++++ grub-customizer-2.5.7/src/view/settingsDlgGtk.h	2012-07-16 10:35:36.344588607 +0400
+@@ -13,7 +13,7 @@
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+  */
+ 
+ #ifndef SETTING_DLG_GTK_INCLUDED

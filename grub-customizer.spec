@@ -1,17 +1,20 @@
 Name:           grub-customizer
 Version:        2.5.7
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Grub Customizer is a graphical interface to configure the grub2/burg settings
 
 License:        GPLv3
 URL:            https://launchpad.net/grub-customizer
 Source0:        https://launchpad.net/grub-customizer/2.5/%{version}/+download/%{name}_%{version}.tar.gz
+# Correct FSF address
+# https://bugs.launchpad.net/grub-customizer/+bug/1025147
+Patch0:         grub-customizer-license.patch
 
 BuildRequires:  cmake
-BuildRequires:  gcc-c++
 BuildRequires:  gtkmm24-devel >= 2.18
 BuildRequires:  gettext
 BuildRequires:  openssl-devel
+BuildRequires:  desktop-file-utils
 
 Requires:       grub2
 
@@ -28,6 +31,7 @@ proxies (script output filter), if required.
 
 %prep
 %setup -q
+%patch0 -p1 -b .license
 
 %build
 %cmake .
@@ -35,8 +39,9 @@ make %{?_smp_mflags}
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+make install DESTDIR=%{buildroot}
+
+desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
 cat > grub.cfg << EOF
 MKCONFIG_CMD=grub2-mkconfig
@@ -53,10 +58,21 @@ install -m 0644 grub.cfg %{buildroot}%{_sysconfdir}/%{name}/grub.cfg
 
 %find_lang %{name}
 
+%post
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%postun
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache -f %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache -f %{_datadir}/icons/hicolor &>/dev/null || :
+
 %files -f %{name}.lang
-%defattr (-,root,root,0755)
 %doc README COPYING changelog
-%config %{_sysconfdir}/%{name}/*
+%config(noreplace) %{_sysconfdir}/%{name}/*
 %{_bindir}/%{name}
 %{_libdir}/grubcfg-proxy
 %{_datadir}/applications/%{name}.desktop
@@ -66,12 +82,18 @@ install -m 0644 grub.cfg %{buildroot}%{_sysconfdir}/%{name}/grub.cfg
 
 
 %changelog
-* Thu Jun 14 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.7-1.R
+* Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.7-2
+- add gtk-update-icon-cache scriptlet
+- add desktop-file-validate and BR for it
+- add patch for correct FSF address in sources
+- clean spec
+
+* Thu Jun 14 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.7-1
 - Update to 2.5.7
 
-* Sat May 12 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.6-1.R
+* Sat May 12 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.6-1
 - Drop patch
 - Update to 2.5.6
 
-* Fri May 11 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.5-1.R
+* Fri May 11 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.5-1
 - Initial release
