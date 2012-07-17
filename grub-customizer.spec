@@ -72,7 +72,7 @@ fi
 
 %files -f %{name}.lang
 %doc README COPYING changelog
-%config(noreplace) %{_sysconfdir}/%{name}/*
+%config(noreplace) %{_sysconfdir}/%{name}
 %{_bindir}/%{name}
 %{_libdir}/grubcfg-proxy
 %{_datadir}/applications/%{name}.desktop
