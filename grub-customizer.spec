@@ -1,14 +1,11 @@
 Name:           grub-customizer
-Version:        2.5.7
-Release:        2%{?dist}
+Version:        3.0.4
+Release:        1%{?dist}
 Summary:        Grub Customizer is a graphical interface to configure the grub2/burg settings
 
 License:        GPLv3
 URL:            https://launchpad.net/grub-customizer
-Source0:        https://launchpad.net/grub-customizer/2.5/%{version}/+download/%{name}_%{version}.tar.gz
-# Correct FSF address
-# https://bugs.launchpad.net/grub-customizer/+bug/1025147
-Patch0:         grub-customizer-license.patch
+Source0:        https://launchpad.net/grub-customizer/3.0/%{version}/+download/%{name}_%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  gtkmm24-devel >= 2.18
@@ -31,7 +28,6 @@ proxies (script output filter), if required.
 
 %prep
 %setup -q
-%patch0 -p1 -b .license
 
 %build
 %cmake .
@@ -82,6 +78,12 @@ fi
 
 
 %changelog
+* Wed Mar 20 2013 Vasiliy N. Glazov <vascom2@gmail.com> 3.0.4-1
+- Update to 3.0.4
+
+* Thu Sep 13 2012 Vasiliy N. Glazov <vascom2@gmail.com> 3.0.2-1
+- Update to 3.0.2
+
 * Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> 2.5.7-2
 - add gtk-update-icon-cache scriptlet
 - add desktop-file-validate and BR for it
