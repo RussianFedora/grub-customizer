@@ -5,7 +5,7 @@ Summary:        Grub Customizer is a graphical interface to configure the grub2/
 
 License:        GPLv3
 URL:            https://launchpad.net/grub-customizer
-Source0:        https://launchpad.net/grub-customizer/3.0/%{version}/+download/%{name}_%{version}.tar.gz
+Source0:        https://launchpad.net/grub-customizer/4.0/%{version}/+download/%{name}_%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  gtkmm30-devel
