@@ -1,5 +1,5 @@
 Name:           grub-customizer
-Version:        3.0.4
+Version:        4.0.2
 Release:        1%{?dist}
 Summary:        Grub Customizer is a graphical interface to configure the grub2/burg settings
 
@@ -8,9 +8,10 @@ URL:            https://launchpad.net/grub-customizer
 Source0:        https://launchpad.net/grub-customizer/3.0/%{version}/+download/%{name}_%{version}.tar.gz
 
 BuildRequires:  cmake
-BuildRequires:  gtkmm24-devel >= 2.18
+BuildRequires:  gtkmm30-devel
 BuildRequires:  gettext
 BuildRequires:  openssl-devel
+BuildRequires:  libarchive-devel
 BuildRequires:  desktop-file-utils
 
 Requires:       grub2
@@ -35,7 +36,7 @@ make %{?_smp_mflags}
 
 
 %install
-make install DESTDIR=%{buildroot}
+%make_install
 
 desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
@@ -78,6 +79,9 @@ fi
 
 
 %changelog
+* Thu Dec 26 2013 Vasiliy N. Glazov <vascom2@gmail.com> 4.0.2-1
+- Update to 4.0.2
+
 * Wed Mar 20 2013 Vasiliy N. Glazov <vascom2@gmail.com> 3.0.4-1
 - Update to 3.0.4
 
