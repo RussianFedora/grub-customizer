@@ -1,5 +1,5 @@
 Name:           grub-customizer
-Version:        4.0.2
+Version:        4.0.4
 Release:        1%{?dist}
 Summary:        Grub Customizer is a graphical interface to configure the grub2/burg settings
 
@@ -79,6 +79,9 @@ fi
 
 
 %changelog
+* Mon Feb 10 2014 Vasiliy N. Glazov <vascom2@gmail.com> 4.0.4-1
+- Update to 4.0.4
+
 * Thu Dec 26 2013 Vasiliy N. Glazov <vascom2@gmail.com> 4.0.2-1
 - Update to 4.0.2
 
